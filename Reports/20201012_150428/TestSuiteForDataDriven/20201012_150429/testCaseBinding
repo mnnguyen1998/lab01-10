@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/data_driven/TC_data - Iteration 1","testCaseId":"Test Cases/data_driven/TC_data","bindedValues":{"password":"\u0027ThisIsNotAPassword\u0027","username":"\u0027Jhon Doe\u0027"}}
+{"testCaseName":"Test Cases/data_driven/TC_data - Iteration 2","testCaseId":"Test Cases/data_driven/TC_data","bindedValues":{"password":"\u0027ThisIsNotAPassword1\u0027","username":"\u0027Jhon Doe1\u0027"}}

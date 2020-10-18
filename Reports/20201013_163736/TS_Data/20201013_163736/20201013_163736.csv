@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Data,Chrome 86.0.4240.75,,,2020-10-13 16:37:52,2020-10-13 16:39:59,2m - 7.667s,FAILED
+,,,,,,,
+Test Cases/data_driven/TC_data2,Chrome 86.0.4240.75,,,2020-10-13 16:37:53,2020-10-13 16:38:55,1m - 1.984s,FAILED
+"openBrowser("""")",Chrome 86.0.4240.75,,,2020-10-13 16:37:54,2020-10-13 16:38:04,10.368s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 86.0.4240.75,,,2020-10-13 16:38:04,2020-10-13 16:38:08,4.338s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 86.0.4240.75,,,2020-10-13 16:38:08,2020-10-13 16:38:10,1.220s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""data2"").getRowNumbers(), (rowNum++)])",Chrome 86.0.4240.75,,,2020-10-13 16:38:10,2020-10-13 16:38:21,11.566s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 86.0.4240.75,,,2020-10-13 16:38:21,2020-10-13 16:38:23,1.834s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""))",Chrome 86.0.4240.75,,,2020-10-13 16:38:23,2020-10-13 16:38:55,31.827s,FAILED
+,,,,,,,
+Test Cases/data_driven/TC_data2,Chrome 86.0.4240.75,,,2020-10-13 16:38:55,2020-10-13 16:39:59,1m - 4.206s,FAILED
+"openBrowser("""")",Chrome 86.0.4240.75,,,2020-10-13 16:38:55,2020-10-13 16:39:04,9.233s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 86.0.4240.75,,,2020-10-13 16:39:04,2020-10-13 16:39:10,6.020s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 86.0.4240.75,,,2020-10-13 16:39:10,2020-10-13 16:39:12,2.001s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""data2"").getRowNumbers(), (rowNum++)])",Chrome 86.0.4240.75,,,2020-10-13 16:39:12,2020-10-13 16:39:24,12.105s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 86.0.4240.75,,,2020-10-13 16:39:24,2020-10-13 16:39:27,2.817s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""))",Chrome 86.0.4240.75,,,2020-10-13 16:39:27,2020-10-13 16:39:59,31.890s,FAILED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteForDataDriven,Chrome 86.0.4240.75,,,2020-10-12 15:08:34,2020-10-12 15:09:06,32.115s,FAILED
+,,,,,,,
+Test Cases/data_driven/TC_data,Chrome 86.0.4240.75,,,2020-10-12 15:08:35,2020-10-12 15:08:54,19.445s,FAILED
+"openBrowser("""")",Chrome 86.0.4240.75,,,2020-10-12 15:08:36,2020-10-12 15:08:47,11.378s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 86.0.4240.75,,,2020-10-12 15:08:47,2020-10-12 15:08:51,4.369s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 86.0.4240.75,,,2020-10-12 15:08:51,2020-10-12 15:08:52,0.581s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Chrome 86.0.4240.75,,,2020-10-12 15:08:52,2020-10-12 15:08:53,1.087s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 86.0.4240.75,,,2020-10-12 15:08:53,2020-10-12 15:08:54,0.838s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 86.0.4240.75,,,2020-10-12 15:08:54,2020-10-12 15:08:54,0.573s,FAILED
+,,,,,,,
+Test Cases/data_driven/TC_data,Chrome 86.0.4240.75,,,2020-10-12 15:08:54,2020-10-12 15:09:06,11.364s,FAILED
+"openBrowser("""")",Chrome 86.0.4240.75,,,2020-10-12 15:08:54,2020-10-12 15:08:59,4.620s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 86.0.4240.75,,,2020-10-12 15:08:59,2020-10-12 15:09:03,3.839s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 86.0.4240.75,,,2020-10-12 15:09:03,2020-10-12 15:09:03,0.427s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Chrome 86.0.4240.75,,,2020-10-12 15:09:03,2020-10-12 15:09:05,1.192s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 86.0.4240.75,,,2020-10-12 15:09:05,2020-10-12 15:09:05,0.827s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 86.0.4240.75,,,2020-10-12 15:09:05,2020-10-12 15:09:06,0.438s,FAILED
